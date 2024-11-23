@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('media/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.main-txt {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: text;
+    position: absolute; 
+    top: 145px;
+    left: 456px;
+}
+
+.about {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 5px; 
+    position: relative;
+    cursor: text;
+    top: 7px;
+    left: -65px;
+}
+
+.about2 {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 5px; 
+    position: relative;
+    cursor: text;
+    top: -5px;
+    left: -10px;
+}
+
+.about3 {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 5px; 
+    position: relative;
+    cursor: text;
+    top: -5px;
+    left: -10px;
+}
+
+.about4 {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 5px; 
+    position: relative;
+    cursor: text;
+    top: -13px;
+    left: -10px;
+    text-decoration: none;
+}
+
+.about4 a:visited {
+    color: #2e0101;
+    text-decoration: none;
+}
+
+.about4 a:hover {
+    color: #870101;
+    text-decoration: none;
+}
+
+.about4 a:active {
+    color: #4f0101; 
+    text-decoration: none;
+}
+
+.about5 {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 5px; 
+    position: relative;
+    cursor: text;
+    top: -15px;
+    left: -10px;
+    text-decoration: none;
+}
+
+.about5 a:visited {
+    color: #2e0101;
+    text-decoration: none;
+}
+
+.about5 a:hover {
+    color: #4f0101;
+    text-decoration: none;
+}
+
+.about5 a:active {
+    color: #870101; 
+    text-decoration: none;
+}
+
+.download-button {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    top: 460px;
+    left: -785px;
+    border-radius: 50px;
+    background-color: #4f0101;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.aboutme-button {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    top: 460px;
+    left: -785px;
+    border-radius: 50px;
+    background-color: #4f0101;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.madeby {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 5px; 
+    position: relative;
+    cursor: text;
+    top: 435px;
+    left: 870px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.error {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 150px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 5px; 
+    position: relative;
+    cursor: text;
+    top: 180px;
+    left: 150px;
+}
